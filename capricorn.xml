@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="lithium-project" fetch="https://github.com/lithium-4-4-project" revision="thirteen" />
+  <remote  name="demonbro" fetch="https://github.com/wasd1234567890" revision="thirteen" />
 
   <!-- Device Specific -->
-  <project name="android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="lithium-project" />
-  <project name="android_device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="lithium-project" />
-  <project name="android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="lithium-project" />
+  <project name="android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="demonbro" />
+  <project name="android_device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="demonbro" />
+  <project name="android_device_xiaomi_msm8996-common-old" path="device/xiaomi/msm8996-common" remote="demonbro" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
-  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="lithium-project" />
+  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="demonbro" />
 </manifest>
